@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/view" />
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
+        android:id="@+id/optionContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -62,7 +62,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_option_bg"
             android:text="Option A"
-            android:drawableLeft="@drawable/aLet"
+            android:drawableLeft="@drawable/alet"
             android:paddingLeft="10dp"
             android:textAllCaps="false" />
 
@@ -73,7 +73,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_option_bg"
             android:text="Option B"
-            android:drawableLeft="@drawable/bLet"
+            android:drawableLeft="@drawable/blet"
             android:paddingLeft="10dp"
             android:textAllCaps="false" />
 
@@ -84,7 +84,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_option_bg"
             android:text="Option C"
-            android:drawableLeft="@drawable/cLet"
+            android:drawableLeft="@drawable/clet"
             android:paddingLeft="10dp"
             android:textAllCaps="false" />
 
@@ -95,7 +95,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_option_bg"
             android:text="Option D"
-            android:drawableLeft="@drawable/dLet"
+            android:drawableLeft="@drawable/dlet"
             android:paddingLeft="10dp"
             android:textAllCaps="false" />
     </LinearLayout>
@@ -169,6 +169,6 @@
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintEnd_toEndOf="@+id/optionContainer"
+        app:layout_constraintTop_toBottomOf="@+id/optionContainer" />
 </androidx.constraintlayout.widget.ConstraintLayout>
