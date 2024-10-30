@@ -36,7 +36,7 @@ public class ScoreActivity extends AppCompatActivity {
 
         binding.timeTaken.setText(remainingTime);
 
-        skipQuestion=totalQuestions-correctAnsw+wrongAnsw;
+        skipQuestion=totalQuestions-(correctAnsw+wrongAnsw);
         binding.question.setText(totalQuestions+"");
         binding.txtcorect.setText(correctAnsw+"");
         binding.txtWrong.setText(wrongAnsw+"");
